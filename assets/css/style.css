@@ -1,0 +1,167 @@
+@media (min-width: 300px) and (max-width: 980px) {
+
+  }
+  @media (min-width: 300px) and (max-width: 768px) {
+    
+  }
+  @media (min-width: 300px) and (max-width: 640px) {
+    #header { position: fixed;
+    }
+  }
+
+
+
+#header {
+    width: 100%;
+    border: 25px;
+    padding: 25px;
+    margin: 25px;
+    height: 100px;
+    background-color: white;
+
+}
+#jessiehaus {
+    float:left;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding: 20px;
+    margin: 0;
+    font-size: 40px;
+    line-height: 150%;
+    background: #ffffff;  
+    color: white; 
+    background-color: #4aaaa5;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-color:#cccccc;
+}
+#about-me {
+    color:#4aaaa5;
+    font-weight: bold;
+    font-size: 45px
+}
+
+#beach {
+    height: 200px;
+    width: 170px;
+    padding: 15px;
+    float:left;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+.text {
+    
+
+}
+#sidebar {
+    float:right;
+    width: 200px;
+    border:white;
+    height: 75px;
+    padding: 0px;
+    margin-top: 20px;
+    
+}
+div {
+    background-color: #ffffff;
+}
+#container {
+    float:left;
+    width: 650px;
+    height:250px;
+    margin-top: 25px;
+    padding: 50px;
+   
+}
+.links {
+    float:right;
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 40px;
+    line-height: 150%;
+    color: #333;
+    background: #efeee7;
+}
+#connect-with-me {
+    color: #4aaaa5;
+    font-weight: bold;
+    size: 40px;
+}
+
+
+ #githubimage {
+     height: 30px;
+     width: 50px;
+ }
+
+ #linkedinimage {
+     height: 30px;
+     width: 30px;
+ }
+
+ #stackoverflowimage {
+     height: 30px;
+     width: 30px;
+ }
+
+
+
+#footer {
+    background-color: #666666;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow:hidden;
+    color: white;
+    
+ }
+
+ #footer>p {
+     text-align: center;
+     bottom: 0px;
+ }
+
+ /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 5px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 20px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 20px; 
+    margin-bottom: 10%;
+    resize: vertical 
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    width: 25%;
+    height: 100px; 
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 60px;
+    float: center;
+    border: white;
+
+
+
+
+}
